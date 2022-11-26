@@ -47,6 +47,7 @@ public class HomePage extends UtilClass {
 	}
 	
 	public String putPin() throws InterruptedException, IOException {
+		
 		setPin.sendKeys("416119");
 		submitPin.click();
 		return correctAddress.getText();
