@@ -47,4 +47,5 @@ public class UtilClass {
 		return prop.getProperty(key);
 	}
 	
+
 }
