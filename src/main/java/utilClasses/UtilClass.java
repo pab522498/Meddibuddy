@@ -47,9 +47,4 @@ public class UtilClass {
 		return prop.getProperty(key);
 	}
 	
-	public void hoverMethod(WebDriver driver,WebElement element) {
-		Actions act = new Actions(driver);
-		act.moveToElement(element);
-	}
-
 }
